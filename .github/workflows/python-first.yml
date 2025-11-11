@@ -1,0 +1,13 @@
+name: Lola Python CI
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
