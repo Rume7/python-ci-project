@@ -25,5 +25,7 @@ jobs:
           else
             echo "No requirements.txt found, skipping dependency installation."
           fi
-      
+
+      - name: Run tests
+        run: pytest
 
