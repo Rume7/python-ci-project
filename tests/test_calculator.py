@@ -10,6 +10,7 @@ def test_add():
 def test_subtract():
     assert subtract(10, 5) == 5
     assert subtract(0, 3) == -3
+    assert subtract(-2, -5) == 7
 
 def test_multiply():
     assert multiply(4, 5) == 20
